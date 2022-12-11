@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <button class="popup_opener">show</button> -->
+    <section class="popup">
+        <div class="popup__content">
+            <div class="close">
+                <span></span>
+                <span></span>
+            </div>
+            <!-- Popup Container Start Here -->
+            <div class="popupcontainer_main">
+                <div class="pop_up_single pop_sinle_left">
+                    <!-- Left Section Start Here -->
+                    <h2 class="heading">Lorem ipsum dolor sit amet.</h2>
+                    <p class="para">Lorem ipsum dolor sit amet.</p>
+                    <form id="myform" name="myform" class="myform">
+                        <div class="form-group">
+                           
+                            <input required autocomplete="off" type="text" class="input" placeholder="Your name"
+                                name="fullname" id="fullname" />
+                            <span class="msg">Please enter your name</span>
+                        </div>
+
+                        <div class="form-group">
+                            <!-- <label for="email"></label> -->
+                            <input required autocomplete="off" type="email" placeholder="Your email" class="input"
+                                name="email" id="email" />
+                                <span class="msg success">Email Valid</span>
+                                <span class="msg error">Email invalid</span>
+                                <!-- <span class="msg">Please enter your email</span> -->
+                        </div>
+
+                        <div class="checkMain">
+                            <div class="form_check">
+                                <input type="checkbox" class="checks" name="checks" id="checks" />
+                                <span class="checktxt">Check this box to recieve monthly newsletter.</span>
+                            </div>
+                        </div>
+
+                        <div class="submtBtn form-group">
+                            <button type="submit" class="submitButton">Sign up</button>
+                        </div>
+                        <div class="form-group">
+                            <a href="javascript:void(0)" class="prvcyBtn">Privacy policy</a>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="pop_up_single desk_only">
+                    <!-- Right Section Start Here -->
+                    <div class="imageSec">
+                        <img src="desktop_Design.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
